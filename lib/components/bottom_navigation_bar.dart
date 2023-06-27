@@ -16,11 +16,12 @@ class BottomNavigation extends StatelessWidget {
   }
 
   goTo(BuildContext context,int index){
+    print(shellRoutes[index]['name']);
     context.goNamed(shellRoutes[index]['name']);
   }
 
   getPositonRouter(context){
-    return shellRoutes.indexWhere((e)=>e["path"] == GoRouterState.of(context).location);
+    return shellRoutes.indexWhere((e)=>e["completepath"] == GoRouterState.of(context).location);
   }
 
   @override

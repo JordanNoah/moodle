@@ -6,3 +6,4 @@ export 'package:moodle/view/app/messages_list_view.dart';
 export 'package:moodle/view/app/notifications_list.dart';
 export 'package:moodle/view/app/profile_view.dart';
 export 'package:moodle/view/app/index_view.dart';
+export 'package:moodle/view/account/login_view.dart';
